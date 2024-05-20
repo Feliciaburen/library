@@ -1,0 +1,18 @@
+public class Admin
+{
+    private Library Mylibrary;
+
+    public Admin(Library Mylibrary)
+    {
+        this.Mylibrary = Mylibrary;
+    }
+
+    public void AdminMenu()
+    {
+        while (true)
+        {
+            Console.WriteLine("1. Add Book");
+            Console.WriteLine("2. Delete Book");
+        }
+    }
+}

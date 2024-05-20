@@ -1,0 +1,14 @@
+C:\Users\felicia.buren\github-classroom\TE21C-spel-prog-2\Uppgift 1\library\bin\Debug\net7.0\library.exe
+C:\Users\felicia.buren\github-classroom\TE21C-spel-prog-2\Uppgift 1\library\bin\Debug\net7.0\library.deps.json
+C:\Users\felicia.buren\github-classroom\TE21C-spel-prog-2\Uppgift 1\library\bin\Debug\net7.0\library.runtimeconfig.json
+C:\Users\felicia.buren\github-classroom\TE21C-spel-prog-2\Uppgift 1\library\bin\Debug\net7.0\library.dll
+C:\Users\felicia.buren\github-classroom\TE21C-spel-prog-2\Uppgift 1\library\bin\Debug\net7.0\library.pdb
+C:\Users\felicia.buren\github-classroom\TE21C-spel-prog-2\Uppgift 1\library\obj\Debug\net7.0\library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\felicia.buren\github-classroom\TE21C-spel-prog-2\Uppgift 1\library\obj\Debug\net7.0\library.AssemblyInfoInputs.cache
+C:\Users\felicia.buren\github-classroom\TE21C-spel-prog-2\Uppgift 1\library\obj\Debug\net7.0\library.AssemblyInfo.cs
+C:\Users\felicia.buren\github-classroom\TE21C-spel-prog-2\Uppgift 1\library\obj\Debug\net7.0\library.csproj.CoreCompileInputs.cache
+C:\Users\felicia.buren\github-classroom\TE21C-spel-prog-2\Uppgift 1\library\obj\Debug\net7.0\library.dll
+C:\Users\felicia.buren\github-classroom\TE21C-spel-prog-2\Uppgift 1\library\obj\Debug\net7.0\refint\library.dll
+C:\Users\felicia.buren\github-classroom\TE21C-spel-prog-2\Uppgift 1\library\obj\Debug\net7.0\library.pdb
+C:\Users\felicia.buren\github-classroom\TE21C-spel-prog-2\Uppgift 1\library\obj\Debug\net7.0\library.genruntimeconfig.cache
+C:\Users\felicia.buren\github-classroom\TE21C-spel-prog-2\Uppgift 1\library\obj\Debug\net7.0\ref\library.dll

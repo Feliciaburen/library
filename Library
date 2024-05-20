@@ -1,0 +1,80 @@
+public class Library
+{
+    private List<Book> Mybooks;
+
+    public Library()
+    {
+        Mybooks = new List<Book>();
+    }
+
+    public void AddBook(string title, string author)
+    {
+        Book newBook = new Book(title, author);
+        Mybooks.Add(newBook);
+        Console.WriteLine("Book added successfully!");
+    }
+
+    public void DisplayBooks()
+    {
+        if (Mybooks.Count = 0)
+        {
+            Console.WriteLine("No books available in the library.");
+            return;
+        }
+
+        Console.WriteLine("Books available in library: ");
+        foreach (var book in Mybooks)
+        {
+            Console.WriteLine($"Title: {book.Title}, Author: {book.Author}, Available: {(book.IsAvailable ? "Yes" : "No")}");
+        }
+    }
+
+    public bool LoanBook(string title)
+    {
+        Book Mybook = Mybooks.Find(b => b.Title == title && b.IsAvailable);
+        if (Mybook != null)
+        {
+            Mybook.IsAvailable = false;
+            Console.WriteLine($"Book '{title}' loaned succesfully!");
+            return true;
+        }
+        else
+        {
+            Console.WriteLine($"Book '{title}' is not available for loan.");
+            return false;
+        }
+    }
+
+    public bool ReturnBook(string title)
+    {
+        Book Mybook = Mybooks.Find(b => b.Title == title && !b.IsAvailable);
+        if (Mybook != null)
+        {
+            Mybook.IsAvailable = true;
+            Console.WriteLine($"Book '{title}' returned successfully!");
+            return true;
+        }
+        else
+        {
+            Console.WriteLine($"Book '{title}' was not loaned out or does not exist.");
+            return false;
+        }
+    }
+
+    public bool DeleteBook(string title)
+    {
+        Book MybookToRemove = Mybooks.Find(b => b.Title == title);
+        if(MybookToRemove != null)
+        {
+            Mybooks.Remove(MybookToRemove);
+            Console.WriteLine($"Book '{title}' removed successfully!");
+            return true;
+        }
+        else
+        {
+            Console.WriteLine($"Book '{title}' does not exist.");
+            return false;
+        }
+    }
+
+}
